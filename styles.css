@@ -64,7 +64,15 @@ strong {
 }
 
 .carte_ville {
-    width: 75%
+    width: 55%;
+    margin-left: 350px;
+    transition: transform .1s;
+}
+
+.carte_ville:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
 }
 
 #carte_hampe_pointe {
@@ -72,11 +80,25 @@ strong {
     margin-left: 560px;
     display: block;
     background-color: black;
+    transition: transform .1s;
+}
+
+#carte_hampe_pointe:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
 }
 
 #carte_regions_centrales {
     width: 80%;
     display: block;
+    transition: transform .1s;
+}
+
+#carte_regions_centrales:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
 }
 
 .comment {
