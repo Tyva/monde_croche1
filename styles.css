@@ -81,29 +81,28 @@ strong {
 
 #carte_hampe_pointe {
     width: 45%;
-    margin-left: 620px;
+    margin-left: 615px;
     display: block;
     background-color: black;
     transition: transform .1s;
 }
 
 #carte_hampe_pointe:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5);
+    -ms-transform: scale(1.8); /* IE 9 */
+    -webkit-transform: scale(1.8); /* Safari 3-8 */
+    transform: scale(1.8);
 }
 
 #carte_regions_centrales {
-    width: 60%;
-    margin-left:500px
-    display: block;
+    width: 55%;
+    margin-left: 260px;
     transition: transform .1s;
 }
 
 #carte_regions_centrales:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5);
+    -ms-transform: scale(1.8); /* IE 9 */
+    -webkit-transform: scale(1.8); /* Safari 3-8 */
+    transform: scale(1.8);
 }
 
 .comment {
