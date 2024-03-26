@@ -1,10 +1,10 @@
 * {
     font-family: "Times New Roman",sans-serif;
+    background-color: #F2EBBC;
 }
 
-*:not(.titletimeline){
+*:not(.article_timeline){
     margin-left: 48px; margin-right: 48px;
-    background-color: #F2EBBC;
 }
 
 h1 {
@@ -13,6 +13,10 @@ h1 {
 
 h2 {
     font-size: 42px;
+}
+
+.titletimeline {
+    background-color: rgb(189, 111, 10);
 }
 
 h3 {
@@ -36,27 +40,12 @@ a {
     color:  brown;
 }
 
-.list_croche {
-    list-style-image: url("images/icons/croche_reduced.png");
-    margin-left: 30; margin-right: 10; margin-top: 10px; margin-bottom: 50px; padding: 0;
-    text-align: start;
-    font-size: 22px;
+ul {
+    background-color: rgb(189, 111, 10);
 }
-
-.list_croche_aligned {
-        list-style-image: url("images/icons/croche_reduced.png");
-        margin-left: 30; margin-right: 10; margin-top: 10px; margin-bottom: 50px; padding: 0;
-        text-align: start;
-        font-size: 22px;
-        list-style-type: disc;
-        -webkit-columns: 3;
-        -moz-columns: 3;
-        columns: 3;
-        list-style-position: inside;
-}
-
 ul li {
     margin-bottom: 20px;
+    background-color: rgb(189, 111, 10);
 }
 
 .retour_index {
@@ -70,56 +59,13 @@ strong {
     margin-left: 0px; margin-right: 0px;
 }
 
-.carte_ville {
-    width: 45%;
-    margin-left: 450px;
-    transition: transform .1s;
-}
-
-.carte_ville:hover{
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5);
-}
-
-#carte_hampe_pointe {
-    width: 45%;
-    margin-left: 615px;
-    display: block;
-    background-color: black;
-    transition: transform .1s;
-}
-
-#carte_hampe_pointe:hover {
-    -ms-transform: scale(1.8); /* IE 9 */
-    -webkit-transform: scale(1.8); /* Safari 3-8 */
-    transform: scale(1.8);
-}
-
-#carte_regions_centrales {
-    width: 55%;
-    margin-left: 260px;
-    transition: transform .1s;
-}
-
-#carte_regions_centrales:hover {
-    -ms-transform: scale(1.8); /* IE 9 */
-    -webkit-transform: scale(1.8); /* Safari 3-8 */
-    transform: scale(1.8);
-}
-
-.comment {
-    font-size: 24px;
-    font-style: italic;
-}
-
 .timeline {
     position: relative;
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
     padding: 40px 60px;
-    background: #d6d6d6;
+    background: #F2EBBC;;
 }
 
 .timeline:after {
@@ -136,7 +82,7 @@ strong {
 
 .timeline article {
     position: relative;
-    background: #eeeeee;
+    background: rgb(189, 111, 10);
     width: calc( 50% - 50px );
     padding: 5px;
 }
@@ -151,10 +97,10 @@ strong {
     position: absolute;
     top: 0;
     left: calc( 100% + 26px );
-    background: #d6d6d6;
+    background: #64330a;
     width: 24px;
     height: 24px;
-    border: 6px #346abf solid;
+    border: 6px #64330a solid;
     border-radius: 50%;
     z-index: 2;
 }
@@ -167,7 +113,7 @@ strong {
     width: 0;
     height: 0;
     border-top: 20px solid transparent;
-    border-left: 16px solid #eeeeee;
+    border-left: 16px solid rgb(189, 111, 10);
     border-bottom: 20px solid transparent;
 }
 
@@ -184,5 +130,5 @@ strong {
     left: auto;
     right: 100%;
     border-left: none;
-    border-right: 16px solid #eeeeee;
+    border-right: 16px solid rgb(189, 111, 10);
 }
