@@ -73,7 +73,11 @@ strong {
     text-indent:0px;
 }
 
-/* cartes */
+/* IMAGES */
+
+.img_perso {
+    margin-left:550px;
+}
 
 .carte_ville {
     width: 45%;
@@ -113,7 +117,7 @@ strong {
     transform: scale(1.8);
 }
 
-/* timeline chronologie */
+/* TIMELINE CHRONOLOGIE */
 
 .timeline {
     position: relative;
