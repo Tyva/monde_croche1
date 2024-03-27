@@ -67,6 +67,14 @@ strong {
     margin-left: 0px; margin-right: 0px;
 }
 
+.comment {
+    font-size: 24px;
+    font-style: italic;
+    text-indent:0px;
+}
+
+/* cartes */
+
 .carte_ville {
     width: 45%;
     margin-left: 450px;
@@ -105,10 +113,7 @@ strong {
     transform: scale(1.8);
 }
 
-.comment {
-    font-size: 24px;
-    font-style: italic;
-}
+/* timeline chronologie */
 
 .timeline {
     position: relative;
@@ -117,6 +122,53 @@ strong {
     margin: 0 auto;
     padding: 40px 60px;
     background: #d6d6d6;
+}
+
+.timeline * {
+    margin-left: 0px; margin-right: 0px;
+}
+
+.timeline h2 {
+    font-size: 42px;
+    margin-left:15px;
+    margin-right:15px;
+    margin-top:2px;
+}
+
+.titletimeline {
+    background-color: rgb(189, 111, 10);
+}
+
+.timeline h3 {
+    font-size: 28px;
+}
+
+.title_centre {
+    text-align: center;
+}
+
+.timeline p {
+    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
+    text-indent: 50px;
+    font-size: 24px;
+}
+
+.timeline a {
+    margin-left: 0px; margin-right: 0px;
+    color:  brown;
+}
+
+.timeline ul {
+    background-color: rgb(189, 111, 10);
+}
+.timeline ul li {
+    margin-bottom: 20px;
+    margin-left:15px;
+    margin-right:15px;
+    background-color: rgb(189, 111, 10);
+    font-size:24px;
 }
 
 .timeline:after {
@@ -133,7 +185,7 @@ strong {
 
 .timeline article {
     position: relative;
-    background: #eeeeee;
+    background: rgb(189, 111, 10);
     width: calc( 50% - 50px );
     padding: 5px;
 }
@@ -148,10 +200,10 @@ strong {
     position: absolute;
     top: 0;
     left: calc( 100% + 26px );
-    background: #d6d6d6;
+    background: #64330a;
     width: 24px;
     height: 24px;
-    border: 6px #346abf solid;
+    border: 6px #64330a solid;
     border-radius: 50%;
     z-index: 2;
 }
@@ -164,7 +216,7 @@ strong {
     width: 0;
     height: 0;
     border-top: 20px solid transparent;
-    border-left: 16px solid #eeeeee;
+    border-left: 16px solid rgb(189, 111, 10);
     border-bottom: 20px solid transparent;
 }
 
@@ -181,5 +233,5 @@ strong {
     left: auto;
     right: 100%;
     border-left: none;
-    border-right: 16px solid #eeeeee;
+    border-right: 16px solid rgb(189, 111, 10);
 }

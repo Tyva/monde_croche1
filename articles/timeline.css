@@ -1,17 +1,18 @@
 * {
     font-family: "Times New Roman",sans-serif;
     background-color: #F2EBBC;
-}
-
-*:not(.article_timeline){
     margin-left: 48px; margin-right: 48px;
 }
 
-h1 {
+.timeline * {
+    margin-left: 0px; margin-right: 0px;
+}
+
+.timeline h1 {
     font-size: 56px;
 }
 
-h2 {
+.timeline h2 {
     font-size: 42px;
 }
 
@@ -19,7 +20,7 @@ h2 {
     background-color: rgb(189, 111, 10);
 }
 
-h3 {
+.timeline h3 {
     font-size: 28px;
 }
 
@@ -27,7 +28,7 @@ h3 {
     text-align: center;
 }
 
-p {
+.timeline p {
     text-align: center;
     text-align: justify;
     text-justify: inter-word;
@@ -35,15 +36,15 @@ p {
     font-size: 24px;
 }
 
-a {
+.timeline a {
     margin-left: 0px; margin-right: 0px;
     color:  brown;
 }
 
-ul {
+.timeline ul {
     background-color: rgb(189, 111, 10);
 }
-ul li {
+.timeline ul li {
     margin-bottom: 20px;
     background-color: rgb(189, 111, 10);
 }
